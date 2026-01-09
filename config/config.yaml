@@ -1,0 +1,8 @@
+model_list:
+  - model_name: mistral
+    litellm_params:
+      model: ollama/mistral
+      api_base: http://localhost:11434
+
+general_settings:
+  master_key: sk-pa-my-secret-key
