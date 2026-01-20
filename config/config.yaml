@@ -1,8 +1,9 @@
 model_list:
-  - model_name: mistral
+  - model_name: qwen2.5
     litellm_params:
-      model: ollama/mistral
+      model: ollama/qwen2.5:7b-instruct-q4_k_m
       api_base: http://localhost:11434
 
 general_settings:
-  master_key: sk-pa-my-secret-key
+  # Set LITELLM_MASTER_KEY environment variable instead of hardcoding
+  master_key: ${LITELLM_MASTER_KEY}

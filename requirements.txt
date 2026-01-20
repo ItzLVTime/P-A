@@ -6,4 +6,6 @@ numpy
 openai>=1.0.0
 python-dotenv
 litellm[proxy]
+pytest
+tenacity
 
